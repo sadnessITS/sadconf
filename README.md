@@ -10,6 +10,7 @@ Required packeges:
 6) i3-dots
 7) kitty
 8) xf86-input-synaptics
+9) ttf-font-awesome
 
 Let's start.
 1) There configuration files for X11, just copy dir "X11" into /etc/ and edit if it necessary.
@@ -17,3 +18,4 @@ Let's start.
 3) Dir "config" put into your user directory.
 4) Make dir ~/.themes and copy all files from "GTK themes".
 5) Copy all files from the "User config" into your user directory (~/).
+6) Conf of the system fonts you can easily find in the Internet.
