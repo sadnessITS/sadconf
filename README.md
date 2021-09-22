@@ -12,8 +12,8 @@ Required packeges:
 8) xf86-input-synaptics
 
 Let's start.
--There configuration files for X11, just copy dir "X11" into /etc/ and edit if it necessary.
--Dir "lightdm" put into /etc/ and after that edit greeter file from this dir.
--Dir "config" put into your user directory.
--Make dir ~/.themes and copy all files from "GTK themes".
--Copy all files from the "User config" into your user directory (~/).
+1) There configuration files for X11, just copy dir "X11" into /etc/ and edit if it necessary.
+2) Dir "lightdm" put into /etc/ and after that edit greeter file from this dir.
+3) Dir "config" put into your user directory.
+4) Make dir ~/.themes and copy all files from "GTK themes".
+5) Copy all files from the "User config" into your user directory (~/).
