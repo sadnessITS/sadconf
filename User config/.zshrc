@@ -99,6 +99,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+#XAMPP
 alias lstart="sudo /opt/lampp/lampp start"
 alias lstop="sudo /opt/lampp/lampp stop"
 
+#Hamachi
+alias hamachi-start="systemctl start logmein-hamachi.service"
+alias hamachi-stop="systemctl stop logmein-hamachi.service"
+
+#Minecraft & Server
+alias tl="java -jar ~/Games/TL/TL.jar"
+alias server-start="java -Xms1024M -Xmx1024M -jar *.jar nogui"

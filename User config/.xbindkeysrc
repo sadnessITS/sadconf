@@ -54,6 +54,10 @@
 "/bin/flameshot gui"
   Print
 
+#Lock screen
+"xscreensaver-command -lock"
+  Mod4 + X
+
 #"xterm -geom 50x20+20+20"
 #   Shift+Mod2+alt + s
 #

@@ -15,4 +15,7 @@ xbindkeys
 syndaemon -t -i 1 -d
 nitrogen --restore &
 flameshot &
+/usr/lib/xfce4/notifyd/xfce4-notifyd &
+udiskie --tray &
+xscreensaver --no-splash &
 exec i3
