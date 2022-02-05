@@ -9,8 +9,9 @@ Required packeges:
 5) nitrogen
 6) i3-dots
 7) kitty
-8) xf86-input-synaptics
-9) ttf-font-awesome
+8) mpv
+9) xf86-input-synaptics
+10) ttf-font-awesome
 
 Let's start.
 1) There configuration files for X11, just copy dir "X11" into /etc/ and edit if it necessary.
