@@ -12,6 +12,7 @@ Required packeges:
 8) mpv
 9) xf86-input-synaptics
 10) ttf-font-awesome
+11) reflector
 
 Let's start.
 1) There configuration files for X11, just copy dir "X11" into /etc/ and edit if it necessary.
@@ -20,3 +21,4 @@ Let's start.
 4) Make dir ~/.themes and copy all files from "GTK themes".
 5) Copy all files from the "User config" into your user directory (~/).
 6) Conf of the system fonts you can easily find in the Internet.
+7) Enable reflector.service
