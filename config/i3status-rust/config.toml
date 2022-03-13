@@ -1,0 +1,75 @@
+[icons]
+name = "awesome"
+[icons.overrides]
+music = ""
+cpu = ""
+memory_mem = ""
+volume_muted = ""
+
+[theme]
+name = "modern"
+[theme.overrides]
+#separator = "  "
+
+[[block]]
+block = "disk_space"
+path = "/"
+alias = "/"
+info_type = "available"
+unit = "GB"
+format = "     {icon} {available}"
+interval = 20
+warning = 20.0
+alert = 10.0
+
+[[block]]
+block = "memory"
+format_mem = "{mem_used}/{mem_total}"
+display_type = "memory"
+icons = true
+clickable = false
+interval = 1 
+warning_mem = 80
+critical_mem = 95
+
+[[block]]
+block = "cpu"
+interval = 1
+format = "{utilization} {frequency}"
+
+[[block]]
+block = "sound"
+headphones_indicator = true
+
+[[block]]
+block = "music"
+player = "spotify"
+dynamic_width = true
+buttons = ["prev", "play", "next"]
+format = "{artist} - {title} "
+on_collapsed_click = "spotify"
+
+[[block]]
+block = "time"
+interval = 1
+format = "%a %d/%m %R"
+
+[[block]]
+block = "pacman"
+interval = 600
+format = "{pacman} UPD-s available"
+format_singular = "{pacman} UPD-s available"
+format_up_to_date = "Up-to-date"
+critical_updates_regex = "(linux|linux-lts|linux-zen)"
+
+[[block]]
+block = "keyboard_layout"
+driver = "xkbswitch"
+#format = "{layout}"
+interval = 1
+
+[[block]]
+block = "battery"
+format = "{percentage} {time}"
+interval = 1
+#if_command = "test -e /sys/class/power_supply/BAT0"

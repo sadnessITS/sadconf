@@ -10,8 +10,9 @@ if [ -d "$xinitdir" ]; then
 fi
 
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
-picom -b
+picom &
 xbindkeys
+xmousepasteblock &
 syndaemon -t -i 1 -d
 nitrogen --restore &
 flameshot &
